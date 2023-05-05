@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{box-sizing: border-box;padding: 0; margin: 0;}
+
+
+.main
+{
+    height: 550px;
+    background: lightblue;
+    border: 2px solid;
+    text-align: center;
+}
+
+p
+{
+    font-size: 25px;
+    /* color: lightseagreen; */
+}
+
+.cards
+{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background: lightpink;
+    border: 2px solid;
+    /* position: relative; */
+    /* transition: 4s; */
+
+}
+
+li
+{
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+    /* position: relative; */
+}
+
+ul
+{
+    position: relative;
+}
+
+
+
+.products
+{
+    height: 475px;
+    width: 100%;
+    background: darkblue;
+    border: 2px solid;
+    display: flex;
+    /* visibility: hidden; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* transition:.6s; */
+    opacity: 0;
+    
+}
+
+.products .p1
+{
+    border: 2px solid;
+    width: 25%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    /* transition:.6s; */
+ 
+}
+
+.cards li:hover .products
+{
+   /* visibility: visible; */
+   opacity: 1;
+}
+
+.products .p1 .new
+{
+    height: 25px;
+    width: 50px;
+    background: lightcoral;
+    align-items: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+
+.p1  .box
+{
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    position: absolute;
+    /* display: none; */
+    /* opacity: 0; */
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    transition: 1.3s;
+}
+
+.p1:hover .box
+{
+    opacity: 1;
+    /* position: absolute; */
+    top: 52%;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <p><b>NEW ARRIVALS</b></p>
+
+        <div class="cards">
+
+    
+            <ul>
+                <li>
+                    
+                    MEN'S
+
+                    <div class="products">
+
+                        <div class="p1">
+
+                            <div class="new">New</div>
+
+                            <div class="box">
+ 
+                                Quick View
+
+
+                            </div>
+    
+                            <!-- <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt=""width="100%"> -->
+
+                        </div>  
+                        <div class="p1">  
+                              <!-- <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt=""  width="100%"> -->
+                            
+                            </div>  
+
+
+                        <div class="p1">
+
+                            <!-- <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" width="100%"> -->
+
+                        </div>  
+
+
+
+                        <div class="p1">
+
+<!-- 
+                            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" width="100%"> -->
+
+
+                        </div>  
+              
+              
+                      </div>
+
+
+                </li>
+
+
+                <li>
+                    
+                    WOMEN'S
+
+                    <div class="products">
+
+                        <div class="p1"></div>  
+                        <div class="p1"></div>  
+                        <div class="p1"></div>  
+                        <div class="p1"></div>  
+              
+              
+                      </div>
+
+
+
+
+
+                </li>
+                <li>
+                    
+                    BAGS
+
+
+                    <div class="products">
+
+                        <div class="p1"></div>  
+                        <div class="p1"></div>  
+                        <div class="p1"> </div>  
+                        <div class="p1"></div>  
+              
+              
+                      </div>
+
+
+
+
+                </li>
+                <li>
+                    
+                    
+                    FOOTWEAR
+
+
+                    <div class="products">
+
+                        <div class="p1">SHOES </div>  
+                        <div class="p1">FOOTWEAR </div>  
+                        <div class="p1">SLIPPERS </div>  
+                        <div class="p1">LOAFERS AND FORMALS</div>  
+              
+              
+                      </div>
+
+
+
+
+                </li>
+            </ul>
+
+<!-- 
+            <div class="products">
+
+                <div class="p1">CARD 1</div>  
+                <div class="p1">CARD 2</div>  
+                <div class="p1">CARD 3</div>  
+                <div class="p1">CARD 4</div>  
+      
+      
+              </div> -->
+
+
+        </div>
+
+    
+
+    </div>
+
+
+
+</body>
+</html>

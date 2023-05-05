@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+     *{box-sizing: border-box;padding: 0; margin: 0;}
+
+
+     .main
+     {
+        height: 100px;
+        background: darkgray;
+        margin-top: 20px;
+        padding: 40px 100px;
+     }
+
+     li
+     {
+        display: inline;
+        /* background: lightpink; */
+        margin-right: 30px;
+        position: relative;
+     }
+
+     ul
+     {
+        background: lightpink;
+        width: 80%;
+        /* margin: auto; */
+        /* position: relative; */
+     }
+
+     a
+     {
+        text-decoration: none;
+        color: black;
+     }
+
+     .main .box
+     {
+        height: 200px;
+        width: 400px;
+        background: lightblue;
+        display: flex;
+        visibility: hidden;
+        position: relative;
+        position: absolute;
+        top: 100%;
+        left: 0;
+     }
+
+     .main .box .box1
+     {
+        height: 200px;
+        width: 40%;
+        background: thistle;
+        padding: 20px;
+        /* list-style: circle; */
+        /* position: relative; */
+     }
+
+     .box1 ul
+     {
+        background: transparent;
+        list-style: circle;
+     }
+
+     .box1 li
+     {
+        display: block;
+        /* list-style: disc; */
+        
+     }
+
+
+     /* .main ul .news .box .box1 ul .n1:hover .box2
+     {
+        position: relative;
+        visibility:visible ;
+     } */
+
+   .main .box .box2
+   {
+     height: 200px;
+     width: 240px;
+     background: lightsalmon;
+     padding: 10px 10px;
+     display: flex;
+     visibility: hidden;
+  
+     position: absolute;
+     top: -20px;
+     left: 140px;
+      
+   }
+
+
+   .box2 ul
+     {
+        background: transparent;
+        list-style: circle;
+     }
+
+     .box2 li
+     {
+        display: inline;
+        /* list-style: disc; */
+        margin-right: 50px;
+        
+     }
+
+     .main .box .box2 .box21
+     {
+        height: 170px;
+        /* width: 50%; */
+        background: rgb(121, 121, 230);
+     }
+
+
+     .main .box .box2 .box22
+     {
+        height: 170px;
+        /* width: 50%; */
+        background: rgb(135, 244, 125);
+        margin-left: 10px;
+     }
+
+     .main ul .news:hover .box
+     {
+        visibility: visible;
+     }
+
+     .main ul .news .box .box1 ul .n1:hover .box2
+     {
+ 
+        visibility: visible;
+        /* position: relative; */
+     }
+
+     .main ul .news .box .box1 ul .n2:hover .box2
+     {
+ 
+        visibility: visible;
+        position: absolute;
+        top: -38px;
+        left: 140px;
+     }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <ul>
+            <li class="news"><a href="#"><b>News</b></a>
+            
+
+                <div class="box">
+
+                    <!-- .box1 starts -->
+        
+                    <div class="box1">
+        
+                        <ul>
+                            <li class="n1"><a href="#"><b>News 1</b></a>
+                            
+                            
+
+                                
+            <div class="box2">
+        
+        
+                <div class="box21">
+        
+        
+                    <ul>
+                        <li><a href="#"><b>Nothing</b></a></li>
+                    </ul>
+        
+                </div>
+        
+                <div class="box22">
+        
+                    
+                    <ul>
+                        <li><a href="#"><b>Nothing</b></a></li>
+                    </ul>
+        
+                </div>
+        
+        
+            </div>
+                 
+                            
+                            </li>
+                            <li class="n2"><a href="#"><b>News 2</b></a>
+                            
+                            
+                                <div class="box2">
+        
+        
+                                    <div class="box21">
+                            
+                            
+                                        <ul>
+                                            <li><a href="#"><b>Nothing 1</b></a></li>
+                                        </ul>
+                            
+                                    </div>
+                            
+                                    <div class="box22">
+                            
+                                        
+                                        <ul>
+                                            <li><a href="#"><b>Nothing 2</b></a></li>
+                                        </ul>
+                            
+                                    </div>
+                            
+                            
+                                </div>
+                                     
+
+
+
+
+                            
+                            
+                            </li>
+                        </ul>
+        
+                    </div>    
+        
+                    <!-- .box1 ends -->
+        
+        
+        
+                      <!-- .box2 starts -->
+        
+        
+            <!-- <div class="box2"> -->
+        
+        
+                <!-- <div class="box21">
+        
+        
+                    <ul>
+                        <li><a href="#"><b>N 1</b></a></li>
+                    </ul>
+        
+                </div> -->
+        
+                <!-- <div class="box22">
+        
+                    
+                    <ul>
+                        <li><a href="#"><b>N 2</b></a></li>
+                    </ul>
+        
+                </div>
+         -->
+        
+            <!-- </div> -->
+                 
+        
+              <!-- .box2 ends -->
+        
+        
+                <!-- </div> -->
+            
+            
+            
+            </li>
+
+            <li><a href="#"><b>Entertainment</b></a></li>
+            <li><a href="#"><b>Live</b></a></li>
+            <li><a href="#"><b>Services</b></a></li>
+
+        </ul>
+
+        <!-- .box starts -->
+
+        <!-- <div class="box"> -->
+
+            <!-- .box1 starts -->
+
+            <!-- <div class="box1">
+
+                <ul>
+                    <li><a href="#"><b>News 1</b></a></li>
+                    <li><a href="#"><b>News 2</b></a></li>
+                </ul>
+
+            </div>     -->
+
+            <!-- .box1 ends -->
+
+
+
+              <!-- .box2 starts -->
+
+
+    <!-- <div class="box2"> -->
+
+<!-- 
+        <div class="box21">
+
+
+            <ul>
+                <li><a href="#"><b>N 1</b></a></li>
+            </ul>
+
+        </div> -->
+
+        <!-- <div class="box22">
+
+            
+            <ul>
+                <li><a href="#"><b>N 2</b></a></li>
+            </ul>
+
+        </div> -->
+
+
+    <!-- </div> -->
+         
+
+      <!-- .box2 ends -->
+
+
+        <!-- </div> -->
+
+        <!-- .box ends -->
+
+
+    </div>
+ 
+
+
+
+</body>
+</html>
